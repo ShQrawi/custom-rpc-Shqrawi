@@ -7,16 +7,16 @@ async function activity() {
     if (!RPC) return;
 
     RPC.setActivity({
-        details: 'Shqrawi',
-        state: 'Turki',
-        largeImageKey: '2',
-        smallImageKey: '1',
+        details: 'CUSTOM DETAILs',
+        state: 'CUSTOM STATE',
+        largeImageKey: 'IMAGE',
+        smallImageKey: 'IMAGE',
         instance: false,
         startTimestamp: Date.now(),
         buttons: [
             {
-                label: 'Check Out My Github!',
-                url: 'https://github.com/ShQrawi'
+                label: 'BUTTON',
+                url: 'BUTTON URL'
             }
         ]
     })
